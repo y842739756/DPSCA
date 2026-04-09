@@ -3,7 +3,7 @@ De novo Plant Single-Cell Annotator (DPSCA) is a workflow designed for genome-re
 
 # How to use
 1. Install the PantheonOS (https://pantheonos.stanford.edu/) and setup LLM API;
-2. Download "DPSCA.gz" file, copy to your path of PantheonOS-0.4.8/.pantheon/skills/omics/ and unzip it;
+2. Download "DPSCA.tar" file, copy to your path of PantheonOS-0.4.8/.pantheon/skills/omics/ and unzip it;
 3. Download and copy Ref_data.gz and unzip it at your workdir
 4. Copy the content of SKILL_Guide.md to your path of PantheonOS-0.4.8/.pantheon/skills/omics/SKILL.md;
 5. Use natural language to inform PantheonOS that you want to process single-cell analysis for plants, providing the data type and location, as well as the analysis you want to perform.
