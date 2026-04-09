@@ -10,7 +10,7 @@ Complete 6-step workflow for non-model plant single-cell RNA-seq analysis, from
 **Workflow Overview**:
 ```
 [A: hybrid correction]
-ONT/PacBio Long Reads + NGS Short Reads ──→ LORDEC Correction ───────┐
+PacBio Long Reads + NGS Short Reads ──→ LORDEC Correction ───────┐
                                                                      │
 [B: NGS denovo assembly]                                             │
 NGS Short Reads ──────────────────────────→ Trinity De Novo Assembly ┼─→ transcriptome reference
@@ -42,8 +42,8 @@ PacBio Long Reads ────────────────────�
 
 | Step | Skill File | Description |
 |------|------------|-------------|
-| 1 | [01_transcriptome_reference.md](./DPSCA/01_transcriptome_reference.md) | Long reads correction & ORF finding |
-| 2 | [02_lordec_transdecoder.md](./DPSCA/02_lordec_transdecoder.md) | Long reads correction & ORF finding |
+| 1 | [01_transcriptome_reference.md](./DPSCA/01_transcriptome_reference.md) | NGS assembly or consensused of PacBio or hybrid correction(NGS+ Pacbio)|
+| 2 | [02_Transdecoder.md](./DPSCA/02_Transdecoder.md) | ORF finding |
 | 3 | [03_prepare_cellranger_reference.md](./DPSCA/03_prepare_cellranger_reference.md) | CellRanger reference preparation |
 | 4 | [04_cellranger_count.md](./DPSCA/04_cellranger_count.md) | CellRanger count |
 | 5 | [05_best_hit_homolog.md](./DPSCA/05_best_hit_homolog.md) | Best hit homolog finding |
