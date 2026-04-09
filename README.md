@@ -1,5 +1,5 @@
 # DPSCA
-De novo Plant Single-Cell Annotator (DPSCA) is a workflow designed for genome-reference-independent cell-type annotation in non-model plants scRNA analysis. The skills of DPSCA can run on PantheonOS (https://doi.org/10.64898/2026.02.26.707870).
+De novo Plant Single-Cell Annotator (DPSCA) is a workflow designed for genome-reference-independent cell-type annotation in non-model plants scRNA analysis. It is fully integrated and ready to run natively on PantheonOS (https://doi.org/10.64898/2026.02.26.707870).
 
 # How to use
 1. Install the PantheonOS (https://pantheonos.stanford.edu/) and setup LLM API;
